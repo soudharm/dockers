@@ -1,0 +1,13 @@
+1.Write the Docker file.
+2. Building the Docker Image.
+3.Running our money authentication app(the model which we have created.)
+
+
+Building the docker image.
+docker build -t money_api
+
+
+see the Dockers
+
+running the Dockers
+docker run -p 8000:8000 mony_api
